@@ -32,5 +32,5 @@ app.use((error, request, response, next) => {
   });
 });
 
-const PORT = process.env.SERVER_PORT || 4444;
+const PORT = process.env.PORT || 5555;
 app.listen(PORT, () => console.log(`Server is running on port ${PORT}`));
